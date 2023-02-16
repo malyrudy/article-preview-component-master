@@ -1,0 +1,30 @@
+@media screen and (min-width: 375px) and (max-width: 750px) {
+    body {
+        margin: 0 5%;
+    }
+
+    .cart {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px auto;
+        border-radius: 10px;
+    }
+
+    #drawers {
+        border-radius: 10px 10px 0 0;
+        object-position: left;
+    }
+
+    .text-content {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .main-heading {
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+
+    .main-paragraph {
+        padding-bottom: 1rem;
+    }
+
+}
